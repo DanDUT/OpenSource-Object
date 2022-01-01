@@ -23,6 +23,7 @@ if __name__ == "__main__":
         df = pd.DataFrame(df_data)
         #数据清洗，去除空值
         df.drop(df[df['License']== 'null'].index,inplace=True)
+        df.drop(df[df['License']== 'Viewlicense'].index,inplace=True)
         groups = df.groupby("License").groups
 
         labels = []

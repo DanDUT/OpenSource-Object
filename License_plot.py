@@ -20,6 +20,7 @@ if __name__ == "__main__":
         df_data = {'License':license}
         df = pd.DataFrame(df_data)
         df.drop(df[df['License']== 'null'].index,inplace=True)
+        df.drop(df[df['License']== 'Viewlicense'].index,inplace=True)
         groups = df.groupby("License").groups
         
         names = []
