@@ -10,17 +10,23 @@
 
 * 实际操作：克服校园网不稳定的问题，爬取了GitHub在2020年12月28日的Trending榜内的每个具体项目的许可证、编程语言、热门指数等诸多信息。
 
+  图一：趋势榜
+
   ![1](resources/1.png)
 
-  ​                                                                                                   图一：趋势榜
+  ​                                                                                                   
+
+  图2：趋势榜内具体项目的信息提取（许可证、编程语言等信息）
 
   ![2](resources/2.png)
 
-  ​                                                                   图2：趋势榜内具体项目的信息提取（许可证、编程语言等信息）
+  ​                                                                   
+
+   图3：最终爬取到的数据（部分）
 
   ![3](resources/3.png)
 
-  ​                                                                                         图3：最终爬取到的数据（部分）
+  ​                                                                                        
 
 * 数去清洗、处理：对爬取下的数据利用numpy，pandas等开源的库进行数据提取到动态数组array，并存入DataFrame,并清洗掉空格，ViewLicense及Other等脏数据。
 
@@ -29,14 +35,16 @@
   > 日榜许可证使用情况
   >
   > > ![License_pie_daily](pic/License_pie_daily.png)
-
+  > >
   > > ![License_Ploting_daily](pic/License_Ploting_daily.png)
   >
   > 月榜语言使用情况
   >
   > > ![Monthly_Language_pie](pic/Monthly_Language_pie.png)
-  >
+  > >
   > > ![Monthly_Language_plot](pic/Monthly_Language_plot.png)
+  >
+  
 
 ## 三、结论
 
