@@ -45,7 +45,7 @@
   > > ![Monthly_Language_plot](pic/Monthly_Language_plot.png)
   >
 
-* 之后，我们还对编写出来的程序进行了单元测试，主要利用了unittest库及coverage库，用例对程序覆盖率高达100%
+* 之后，为了遵循软件工程理论，我们还对编写出来的程序进行了单元测试，主要利用了unittest库及coverage库，用例对程序覆盖率高达100%
 
   ![test3](resources/test3.png)
 
