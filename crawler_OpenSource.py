@@ -177,4 +177,4 @@ for str1 in str:
 
     #数据持久化处理
     project_info2=pd.concat(project_info)
-    project_info2.to_excel('project_info_'+str1+'.xlsx',index=False)
+    project_info2.to_csv('project_info_'+str1+'.csv',index=False)
