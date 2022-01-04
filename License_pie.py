@@ -19,7 +19,7 @@ if __name__ == "__main__":
         #获取license所在的列
         license = data[1:,2]
         df_data = {'License':license}
-        #DataFrame读入数据
+        #DataFrame读入csv数据
         df = pd.DataFrame(df_data)
         #数据清洗，去除空值
         df.drop(df[df['License']== 'null'].index,inplace=True)
