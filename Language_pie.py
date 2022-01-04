@@ -49,7 +49,7 @@ if __name__ == "__main__":
             #ax.pie(sizes,labels=labels,autopct='%1.1f%%')
             ax.pie(sizes,labels=labels, autopct='%1.1f%%',shadow=True,startangle=90)
             ax.axis('equal')
-            # 显示图例
+            # 显示图像
             plt.legend(loc='best')
             #plt.plot()
             plt.title("Language Pie Chart")
