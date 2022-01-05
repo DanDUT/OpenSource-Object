@@ -35,7 +35,7 @@ if __name__ == "__main__":
         #print(df)
         #分组依据
         groups = df.groupby("Language").groups
-        # 设置字体 雅黑
+        # 设置字体 微软雅黑
         plt.rcParams['font.sans-serif'] = ['SimHei']
         # 创建图形
         plt.figure(figsize=(20,8),dpi=80)
